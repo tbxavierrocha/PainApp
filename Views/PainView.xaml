@@ -42,6 +42,7 @@
                 x:Name="SliderDor"
                     MinimumTrackColor="Red"
                     MaximumTrackColor="Green"
+                    ThumbColor="Black"
                 Maximum="10"
                 Minimum="0"
                 Value="{Binding Dor}" />
