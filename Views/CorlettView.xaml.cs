@@ -11,4 +11,8 @@ public partial class CorlettView : ContentPage
         InitializeComponent();
     }
 
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        DrawView.Lines.Clear(); 
+    }
 }

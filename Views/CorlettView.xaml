@@ -12,6 +12,7 @@
             <StackLayout>
                 <Label Text="No diagrama abaixo, toque nos locais onde sente dor."
                        FontSize="18"
+                       TextColor="Black"
                        HorizontalTextAlignment="Center"                
                        Padding="2"></Label>
             </StackLayout>
@@ -28,16 +29,18 @@
             </HorizontalStackLayout>
             
             <mct:DrawingView 
+                x:Name="DrawView"
                 LineColor="red"
-                IsMultiLineModeEnabled="False"
+                IsMultiLineModeEnabled="True"
                 HeightRequest="350"
                 WidthRequest="350"
                 BackgroundColor="Transparent">                
             </mct:DrawingView>
+
             
         </AbsoluteLayout>
 
-        
-        
+        <Button Text="Limpar" Clicked="Button_Clicked"></Button>
+
     </VerticalStackLayout>
 </ContentPage>

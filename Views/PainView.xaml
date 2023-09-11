@@ -10,6 +10,7 @@
             BackgroundColor="Aquamarine">
             <StackLayout>
                 <Label Text="Imagine 0 como sendo sem dor e 10 uma dor insuportável!"
+                       TextColor="Black"
                        FontSize="18"
                        HorizontalTextAlignment="Center"                
                        Padding="2"></Label>
@@ -21,6 +22,7 @@
             <StackLayout>
                 <Label Text="Qual o nível da sua dor?"
                        FontSize="20"
+                       TextColor="Black"
                        FontAttributes="Bold"
                        HorizontalOptions="Center"
                        Padding="10"></Label>
@@ -32,11 +34,14 @@
             <StackLayout >
                 <Label Text="0     1     2     3     4     5     6     7     8     9     10"
                        FontAttributes="Bold"
+                       TextColor="DarkBlue"
                        Margin="10"
                        FontSize="16"                       
                        />
                 <Slider
                 x:Name="SliderDor"
+                    MinimumTrackColor="Red"
+                    MaximumTrackColor="Green"
                 Maximum="10"
                 Minimum="0"
                 Value="{Binding Dor}" />
@@ -63,7 +68,8 @@
                             Path=Value, StringFormat='{0:F0}'}"
                    FontSize="150"
                    HorizontalOptions="Center"
-                   FontAttributes="Bold" />
+                   FontAttributes="Bold"
+                   TextColor="DarkBlue"/>
         </Frame>
     </VerticalStackLayout>
 </ContentPage>
