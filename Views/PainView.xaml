@@ -4,7 +4,7 @@
              x:Class="PainApp.PainView"
              Title="Escala Visual Analógica">
     
-    <VerticalStackLayout Padding="5, 30, 5, 10">
+    <VerticalStackLayout Padding="5, 30, 5, 10" BackgroundColor="Black">
 
         <Frame CornerRadius="20" Margin="5" Padding="20" 
             BackgroundColor="Aquamarine">
@@ -42,6 +42,7 @@
                 x:Name="SliderDor"
                     MinimumTrackColor="Red"
                     MaximumTrackColor="Green"
+                    ThumbColor="Black"
                 Maximum="10"
                 Minimum="0"
                 Value="{Binding Dor}" />

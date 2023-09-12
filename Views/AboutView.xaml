@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PainApp.AboutView"
              Title="Sobre">
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="Black">
         <Label
-            Margin="5"
+            Margin="5, 20"
             Text="A Escala Visual Analógica (EVA) é uma tentativa de mensurar a dor, que é subjetiva! Existem vários tipos, desde escalas numeradas até desenhos, que são
             voltados para crianças, mas o objetivo é o mesmo. Pode ser utilizada para acompanhar a evolução da dor durante o tratamento, mesnsurando a cada atendimento, ou 
             antes e após a aplicação de uma técnica" 
-            TextColor="Black"
+            TextColor="White"
             HorizontalTextAlignment="Center"
             VerticalOptions="Center" 
             />
@@ -20,7 +20,7 @@
             que posteriormente são classificadas de acordo com uma análise prória da ferramenta. A versão modificada que é utilizada aqui não tem objetivo de classificar, mas 
             apenas de indicar os locais da queixa do paciente, uma vez que em muitos casos ele não é capaz de precisar onde está localizada ou trazer uma informação útil para o
             fisioterapeuta"
-            TextColor="Black"
+            TextColor="White"
             HorizontalTextAlignment="Center"
             VerticalOptions="Center" 
             />
@@ -30,7 +30,8 @@
             Text="Tulio Brandão Xavier-Rocha &#10; &#10; Fisioterapeuta
             &#10; Engenheiro Mecânico
             &#10; Mestre em Movimento Humano
-            &#10; Doutor em Neurociências" />
+            &#10; Doutor em Neurociências" 
+            TextColor="White"/>
         
        
     </VerticalStackLayout>
